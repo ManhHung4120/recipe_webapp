@@ -1,6 +1,6 @@
 # Backend part of my recipe webapp
 <h1 align="center">Hi 👋, I'm Hùng</h1>
-<h3 align="center">I'm a developer looking for new things</h3>
+<h3 align="center">I'm just a newbie developer trying new things</h3>
 
 <h3 align="left">About the project</h3>
 This is designed to make cooking and baking at home not only easier and more enjoyable but also healthier. With a vast collection of recipes, you'll never run out of meal ideas or inspiration, and you'll also have access to the nutritional value of each dish.
