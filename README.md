@@ -24,12 +24,12 @@ Step 2: Once the image is downloaded, create a new container from image with com
 <br>"docker run --name <"your container name"> -e POSTGRES_PASSWORD=<"your password"> -e POSTGRES_USER=<"your username"> -p 5432:5432 -d <"to do : add image name later"> </br>
 Step 3: Run this command to check for postgres url for this project 
 <br>'docker exec <"your container name"> sh -c 'echo "postgresql://<"your username">:<"your password">@localhost:5432/RecipeRepo" '</br>
-Step 4: Connect PgAdmin4 to Postgresql in container (use this link for reference : https://dykraf.com/blog/how-to-connect-pgadmin4-and-postgresql-server-on-docker-container)
+Step 4: Connect PgAdmin4 to Postgresql in container (can use this site as a guide : https://dykraf.com/blog/how-to-connect-pgadmin4-and-postgresql-server-on-docker-container)
 Step 5: Sign up for api key at this site :https://fdc.nal.usda.gov/api-key-signup.html
-Step 6: Add .env file and config with the same format as file "env-example.txt"
+Step 6: Create s3 Bucket aws (can use this site as a guide : https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
+Step 7: Add .env file and config with the same format as file "env-example.txt"
 To run, use command : "flask run"
 Use Postman API to try this API in blueprint of each folder or running this frontend application : frontendrepository.com
-
 </pre>
 
 
